@@ -26,7 +26,7 @@ export const Entry = () => {
 
   };
 
-  const handleOnSubmit = e =>{
+  const handleOnSubmit = e =>{//used for handling the password default login page submission
     e.preventDefault(); //prevent reloading of page on submit
 
     if(!email || !password){
@@ -37,7 +37,7 @@ export const Entry = () => {
     console.log(email,password);
   };
 
-  const handleOnResetSubmit = e =>{
+  const handleOnResetSubmit = e =>{//used for handling the password reset page submission
     e.preventDefault(); //prevent reloading of page on submit
 
     if(!email){
